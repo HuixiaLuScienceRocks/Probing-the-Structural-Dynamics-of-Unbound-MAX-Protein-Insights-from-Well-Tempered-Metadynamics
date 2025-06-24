@@ -1,4 +1,4 @@
-RESTART
+#RESTART
 MOLINFO STRUCTURE=plumed_pdbrenumber_output.pdb
 WHOLEMOLECULES ENTITY0=1-1371
 
@@ -16,10 +16,6 @@ d2: DISTANCE ATOMS=288,791 NOPBC
 uwall: UPPER_WALLS ARG=d1 AT=10.0 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
 lwall: LOWER_WALLS ARG=d1 AT=0.4 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
 
-uwalld2: UPPER_WALLS ARG=d1 AT=10.0 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
-lwalld2: LOWER_WALLS ARG=d1 AT=5.0 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
-
-
 METAD ...
   LABEL=metad
   ARG=d1,d2
@@ -29,7 +25,7 @@ METAD ...
   SIGMA=0.2,0.2
   TEMP=310.15
   FILE=HILLS
-  GRID_MIN=0.2,0.3
+  GRID_MIN=0.3,0.3
   GRID_MAX=10.1,10.0
   GRID_SPACING=0.01,0.005
   CALC_RCT
@@ -37,7 +33,3 @@ METAD ...
 
 #output the collective variales during the simulation
 PRINT ARG=d1,d2,metad.bias,metad.rct,uwall.bias FILE=COLVAR STRIDE=500
-#PRINT ARG=d1 FILE=debug_d1 STRIDE=100
-
-# Save atoms to check visually
-#DUMPATOMS FILE=selected_atoms.gro ATOMS=myatoms STRIDE=100
