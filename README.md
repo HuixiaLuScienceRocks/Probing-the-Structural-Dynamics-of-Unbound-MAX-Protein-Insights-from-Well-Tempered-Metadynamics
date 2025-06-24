@@ -5,7 +5,7 @@ In this repository we are providing essential files for conduting well-tempered 
 ## If you find these instruction usedful I am more than happy to share. When you use any of these files, please cite my paper. Thank you.
 These files are for manuscript in preparation, but will submit soon:
 
-### Probing the Structural Dynamics of Unbound MAX Protein: Insights from Well-Tempered Metadynamics by Huixia Lu, Jordi Marti, and Jordi Faraudo
+### "Probing the Structural Dynamics of Unbound MAX Protein: Insights from Well-Tempered Metadynamics" by Huixia Lu, Jordi Marti, and Jordi Faraudo
 
 Related results are provided in folder "Results-PCA", convergence, etc.
 
