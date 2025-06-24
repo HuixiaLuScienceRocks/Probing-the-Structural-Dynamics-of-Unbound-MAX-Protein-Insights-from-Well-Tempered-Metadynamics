@@ -2,6 +2,11 @@
 
 In this repository we are providing essential files for conduting well-tempered metadynamics simulations to help explore the conformational space of unbounded MAX protein. 
 
+## If you find these instruction usedful I am more than happy to share. When you use any of these files, please cite my paper. Thank you.
+These files are for manuscript in preparation, but will submit soon:
+
+### Probing the Structural Dynamics of Unbound MAX Protein: Insights from Well-Tempered Metadynamics by Huixia Lu, Jordi Marti, and Jordi Faraudo
+
 Related results are provided in folder "Results-PCA", convergence, etc.
 
 ## Simulating packages used in this work:
@@ -9,11 +14,6 @@ Related results are provided in folder "Results-PCA", convergence, etc.
 1. Classical MD: amber/24-gcc-ompi-plumed2.9
 2. well-tempered metaD: gromacs/2023.5_plumed-2.9.2-gcc-nvhpcx
 
-## If you find these instruction usedful I am more than happy to share. When you use any of these files, please cite my paper. Thank you.
-These files are for manuscript in preparation, but will submit soon:
-
-Probing the Structural Dynamics of Unbound MAX Protein: Insights from Well-Tempered Metadynamics
-Authors: Huixia Lu, Jordi Marti, and Jordi Faraudo
 
 # highlights from this work:
 
