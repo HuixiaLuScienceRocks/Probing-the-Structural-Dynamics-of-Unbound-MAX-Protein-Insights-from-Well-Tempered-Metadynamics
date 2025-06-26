@@ -1,13 +1,13 @@
 # Probing-the-Structural-Dynamics-of-Unbound-MAX-Protein-Insights-from-Well-Tempered-Metadynamics
 
-In this repository we are providing essential files for conduting well-tempered metadynamics simulations to help explore the conformational space of unbounded MAX protein. 
+In this repository, we provide essential files for conducting well-tempered metadynamics simulations to help explore the conformational space of the unbounded MAX protein. 
 
-## If you find these instruction usedful I am more than happy to share. When you use any of these files, please cite my paper. Thank you.
-These files are for manuscript in preparation, but will submit soon:
+## If you find these instructions useful, I am more than happy to share. When you use any of these files, please cite my paper. Thank you.
+These files are for a manuscript in preparation, but I will submit soon:
 
 ### "Probing the Structural Dynamics of Unbound MAX Protein: Insights from Well-Tempered Metadynamics" by Huixia Lu, Jordi Marti, and Jordi Faraudo
 
-Related results are provided in folder "Results-PCA", convergence, etc.
+Related results are provided in the folders "Results-PCA", convergence, etc.
 
 ## Simulating packages used in this work:
 
