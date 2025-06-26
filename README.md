@@ -7,7 +7,7 @@ These files are for a manuscript in preparation, but I will submit soon:
 
 ### "Probing the Structural Dynamics of Unbound MAX Protein: Insights from Well-Tempered Metadynamics" by Huixia Lu, Jordi Marti, and Jordi Faraudo
 
-Related results are provided in the folders "Results-PCA", convergence, etc.
+Related results and the corresponding Python code used to obtain the results are provided in the folder "Results-PCA".
 
 ## Simulating packages used in this work:
 
